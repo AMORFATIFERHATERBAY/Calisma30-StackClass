@@ -30,7 +30,7 @@ namespace Calisma30_StackClass
             Console.WriteLine("\nYığının {0} sayısını aldık", sayi);
 
             sayi = (int)yigin.Peek();
-            Console.WriteLine("\nYığının {0} sayısını aldık", sayi);
+            Console.WriteLine("\nYığının tepesindeki sayı şu anda {0} ", sayi);
 
             EkranaYaz(yigin);
             Console.WriteLine();
